@@ -24,6 +24,13 @@ pipeline{
 			}
 
 		}
+		stage("Kubernetes"){
+			steps{
+				echo "Crate the kubernetes cluster"
+				echo "expose the api"
+			}
+
+		}
 
 	}
 }
